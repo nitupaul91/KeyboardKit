@@ -36,6 +36,7 @@ public extension InputSet {
     
     static var qwerty: InputSet {
         .init(rows: [
+            .init(chars: "qwertyuiop"),
             .init(chars: "asdfghjkl"),
             .init(phone: "zxcvbnm", pad: "zxcvbnm,.")
         ])
