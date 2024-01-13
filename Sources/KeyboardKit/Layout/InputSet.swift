@@ -42,6 +42,14 @@ public extension InputSet {
         ])
     }
     
+    static var qwertz: InputSet {
+        .init(rows: [
+            .init(chars: "qwertzuiopü"),
+            .init(chars: "asdfghjklöä"),
+            .init(phone: "yxcvbnmß", pad: "yxcvbnmß,.")
+        ])
+    }
+    
     static func standardNumeric(currency: String) -> InputSet {
         .init(rows: [
             .init(chars: "1234567890"),
