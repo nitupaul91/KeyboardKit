@@ -46,7 +46,7 @@ public extension InputSet {
         .init(rows: [
             .init(chars: "qwertzuiopü"),
             .init(chars: "asdfghjklöä"),
-            .init(phone: "yxcvbnmß", pad: "yxcvbnmß,.")
+            .init(phone: "yxcvbnm", pad: "yxcvbnm,.")
         ])
     }
     

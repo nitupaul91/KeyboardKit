@@ -16,6 +16,7 @@ open class GermanKeyboardLayoutProvider: InputSetBasedKeyboardLayoutProvider {
             symbolicInputSet: .standardSymbolic(currencies: ["€", "$", "£", "¥"])
         )
         self.localeKey = KeyboardLocale.german.id
+        
     }
     
 }
