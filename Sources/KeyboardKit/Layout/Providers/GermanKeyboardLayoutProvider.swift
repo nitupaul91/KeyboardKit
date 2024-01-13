@@ -1,15 +1,15 @@
 //
 //  File.swift
-//  
+//
 //
 //  Created by Paul Nitu on 13.01.2024.
 //
 
 import Foundation
 
-class GermanKeyboardLayoutProvider: InputSetBasedKeyboardLayoutProvider {
+open class GermanKeyboardLayoutProvider: InputSetBasedKeyboardLayoutProvider {
     
-    init() {
+    public init() {
         super.init(
             alphabeticInputSet: .qwertz,
             numericInputSet: .standardNumeric(currency: "€"),
